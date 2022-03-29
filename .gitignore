@@ -101,6 +101,7 @@ buck-out/
 # archives
 *.rar
 .rar
+.rar/
 .mp4
 
 # testing
