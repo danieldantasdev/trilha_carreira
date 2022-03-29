@@ -1,0 +1,8 @@
+{
+    "expo": {
+        "name": "TicketGospel",
+        "slug": "TicketGospel",
+        "version": "1.0.0",
+        "assetBundlePatterns": ["**/*"]
+    }
+}
