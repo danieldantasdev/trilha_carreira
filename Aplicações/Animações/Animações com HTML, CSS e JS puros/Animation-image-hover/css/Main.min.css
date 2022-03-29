@@ -1,0 +1,58 @@
+body {
+  background: #111b25;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+ .c
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.w {
+  position: relative;
+  background: rgba(66, 66, 66, 0.5) url("../Image/1.jpg") repeat fixed;
+  background-position: 50% 100%;
+  background-size: contain;
+  white-space: nowrap;
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+  z-index: 5;
+  font-size: 0;
+}
+
+ .i {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  transition: all 1.3s ease-in-out;
+  background: rgba(66, 66, 66, 0.5) url("../Image/2.jpg") repeat fixed;
+  background-size: contain;
+  background-position: 50% 100%;
+
+}
+.i:hover {
+  transition: all .0s linear;
+  opacity: 0;
+}
+
+.h {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 35px;
+  font-size: 40px;
+  color: beige;
+  text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}   

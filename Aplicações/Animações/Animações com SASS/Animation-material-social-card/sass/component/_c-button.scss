@@ -1,0 +1,28 @@
+$component-name: "c-button";
+
+.#{$component-name} {
+  background-color: var(--color-dpw-secondary);
+
+  border-radius: $global-module-size;
+
+  color: var(--color-webfatorial-white);
+
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  max-width: rem(210);
+
+  padding: rem(9) rem(15);
+
+  transition: all 90ms ease-in;
+
+  &:hover {
+    background-color: var(--color-dpw-primary);
+    transition: all 90ms ease-out;
+  }
+
+  &:active {
+    transform: translateY(rem(1.5));
+  }
+}

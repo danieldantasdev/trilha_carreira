@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: #5B9CE5;
+  position: relative;
+}
+
+#svg1 {
+  display: block;
+  width: 100%;             
+  height: 100%;
+  transform: scale(.9);
+  position: absolute;
+  bottom: -20px;
+  z-index: 2;
+}
+
+#base {
+  cursor: pointer;
+}
+
+#clip {
+  transform: scale(1) rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: all .8s linear;
+}
+
+#base:hover  #clip {
+  transform: scale(7) rotate(70deg);
+}

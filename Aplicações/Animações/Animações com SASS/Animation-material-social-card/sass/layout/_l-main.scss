@@ -1,0 +1,18 @@
+$layout-name: "l-main";
+
+.#{$layout-name} {
+  background-color: var(--color-webfatorial-white);
+
+  border-radius: rem(6);
+  height: rem(432); // 16:9
+  width: rem(768); // 16:9
+
+  padding: $global-module-size * 2;
+  margin: auto; /* Centralizando nos eixos x e y */
+
+  position: relative;
+
+  display: flex;
+
+  box-shadow: 0 0 rem(15) rgba(0, 0, 0, 0.15), 0 0 rem(30) rgba(0, 0, 0, 0.1);
+}
