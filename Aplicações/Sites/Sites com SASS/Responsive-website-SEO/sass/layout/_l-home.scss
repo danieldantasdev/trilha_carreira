@@ -1,0 +1,39 @@
+/* Home */
+.l-home {
+  &__box {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    &:nth-child(2) {
+      flex-wrap: wrap-reverse;
+      padding: 4rem 0;
+    }
+  }
+
+  &__content {
+    flex: 1 1 42rem;
+
+    h3 {
+      font-size: 3rem;
+      color: var(--color-webfatorial-black);
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: var(--color-webfatorial-light-color);
+      padding: 1rem 0;
+      line-height: 2;
+    }
+  }
+
+  &__image {
+    flex: 1 1 42rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}

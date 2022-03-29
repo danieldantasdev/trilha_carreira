@@ -1,0 +1,13 @@
+/* Work */
+.l-work {
+  &__box-container {
+    columns: 3 25rem;
+    gap: 2rem;
+
+    img {
+      margin-bottom: 2rem;
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+  }
+}

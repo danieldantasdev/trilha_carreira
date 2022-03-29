@@ -1,0 +1,30 @@
+/* Services */
+.l-services {
+  &__box-container {
+    @include grid(31rem);
+  }
+
+  &__box {
+    text-align: center;
+    padding: 2rem;
+    background: var(--color-webfatorial-light-bg);
+    border-radius: 0.5rem;
+
+    img {
+      height: 10rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      padding: 1rem 0;
+      font-size: 2rem;
+      color: var(--color-webfatorial-black);
+    }
+
+    p {
+      font-size: 1.4rem;
+      color: var(--color-webfatorial-light-color);
+      line-height: 2;
+    }
+  }
+}

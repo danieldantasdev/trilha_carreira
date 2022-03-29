@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --red: #e23e3e;
+    --blue: #224ef0;
+    --green: #3ee28a;
+}
+
+h1 {
+    color: var(--red);
+}
+h2 {
+    color: var(--green);
+}
+h3 {
+    color: var(--blue);
+}
+.imagem-dog {
+    max-width: 100%;
+}
+
+#danielzinho {
+    width: 20%;
+}
+
+.container-header {
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    text-align: center;
+
+    padding: 7rem;
+}
+
+ul li {
+    padding: 1rem;
+    margin: 0.5rem;
+
+    border-radius: 0.8rem;
+
+    background-color: #8668a1;
+
+    transition: all 0.1s linear;
+}
+
+ul li:hover {
+    filter: brightness(2);
+    letter-spacing: 0.2rem;
+}
+
+ul li a {
+    padding: 2rem;
+
+    transition: 0.5s;
+}

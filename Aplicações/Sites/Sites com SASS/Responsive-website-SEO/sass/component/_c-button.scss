@@ -1,0 +1,16 @@
+/* Button */
+.c-button {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background: var(--color-webfatorial-light-bg);
+  cursor: pointer;
+  color: var(--color-webfatorial-black);
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+
+  &:hover {
+    background: var(--color-webfatorial-red);
+    color: #fff;
+  }
+}

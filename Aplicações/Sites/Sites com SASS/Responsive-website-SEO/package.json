@@ -1,0 +1,30 @@
+{
+  "name": "daniel-lobinhodev",
+  "version": "1.1.0",
+  "description": "SEO website foi uma aplicação prática feita para uma empresa fictícia, como treino das habilidades nas tecnologias listadas no readme. O mesmo é responsivo para as diferentes resoluções.",
+  "main": "script.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lobinhodev/Responsive-website-SEO"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desenvolvweb/basic-front-boilerplate/issues"
+  },
+  "homepage": "https://github.com/desenvolvweb/basic-front-boilerplate#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.23.3"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}

@@ -1,0 +1,49 @@
+/* Newsletter */
+.l-newsletter {
+  background: var(--color-webfatorial-red);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+
+  &__content {
+    flex: 1 1 42rem;
+
+    h3 {
+      font-size: 6rem;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 2.2rem;
+      color: #fff;
+    }
+  }
+
+  form {
+    flex: 1 1 42rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    display: flex;
+
+    .email {
+      width: 100%;
+      padding: 0 1.4rem;
+      font-size: 1.6rem;
+      text-transform: none;
+    }
+
+    .c-button {
+      margin-top: 0;
+      background: #333;
+      color: #fff;
+
+      &:hover {
+        background: var(--color-webfatorial-red);
+      }
+    }
+  }
+}

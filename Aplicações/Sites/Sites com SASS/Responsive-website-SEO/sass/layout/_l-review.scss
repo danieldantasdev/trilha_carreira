@@ -1,0 +1,83 @@
+/* Reviews */
+.l-reviews {
+  &__box-container {
+    @include grid(31rem);
+    overflow-x: hidden;
+  }
+
+  &__box {
+    img {
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+    }
+
+    h3 {
+      font-size: 2rem;
+      color: var(--color-webfatorial-black);
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  &__stars {
+    i {
+      font-size: 1.5rem;
+      color: var(--color-webfatorial-red);
+    }
+  }
+
+  &__text {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: var(--color-webfatorial-light-bg);
+    font-size: 1.5rem;
+    color: var(--color-webfatorial-light-color);
+    position: relative;
+    margin-top: 3rem;
+    line-height: 2;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -1rem;
+      left: 2rem;
+      height: 2rem;
+      width: 2rem;
+      background: var(--color-webfatorial-light-bg);
+      transform: rotate(45deg);
+    }
+  }
+  /* ========SWIPER================================ */
+  .swiper-container,
+  .swiper-wrapper {
+    position: relative;
+  }
+
+  .swiper-slide {
+    height: auto;
+    padding: 4rem 1rem;
+    position: relative;
+  }
+
+  .swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 2rem;
+  }
+
+  .swiper-pagination {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: var(--color-webfatorial-red);
+  }
+}
