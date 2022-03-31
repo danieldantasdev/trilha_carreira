@@ -1,0 +1,13 @@
+.c-main__description {
+    font-family: montserrat-light;
+    font-size: 0.9em;
+
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .c-main__description {
+        width: 15rem;
+        margin: 0 auto;
+    }
+}

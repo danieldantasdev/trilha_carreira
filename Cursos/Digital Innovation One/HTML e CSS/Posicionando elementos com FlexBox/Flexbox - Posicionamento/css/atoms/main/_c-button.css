@@ -1,0 +1,22 @@
+.c-main__button {
+    font-family: montserrat-light;
+    font-size: 1.1em;
+    font-weight: bold;
+
+    border-radius: 1rem;
+
+    width: 100%;
+    margin: 1rem;
+    padding: 0.5rem;
+
+    cursor: pointer;
+    background: transparent;
+    border: solid 1px var(--green);
+
+    transition: all 0.2s linear;
+}
+
+.c-main__button:hover {
+    background: var(--green);
+    color: var(--white);
+}

@@ -1,0 +1,92 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-logo {
+    height: 8vmin;
+    /* pointer-events: none; */
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.c-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: calc(20px + 2vmin);
+}
+
+.c-social-media a,
+.App-logo {
+    color: #61dafb;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.c-social-media a:hover,
+.App-logo:hover {
+    filter: brightness(0.1);
+}
+
+.App-section {
+    font-size: calc(80px + 2vmin);
+}
+
+.App-section-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 100%;
+    height: 100vh;
+    color: #61dafb;
+}
+
+.icon-html-five,
+.icon-css3,
+.icon-git {
+    border: 2px solid #61dafb;
+    border-radius: 10%;
+    padding: 2rem;
+}
+
+@keyframes App-pulse-icons {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+
+    .icon-html-five,
+    .icon-css3,
+    .icon-git {
+        animation: App-pulse-icons infinite 1s alternate;
+    }
+}

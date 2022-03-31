@@ -1,0 +1,78 @@
+Tipos de Operadores
+
+Aritmética
+Atribuição
+Comparação 
+Lógica
+Condicionais
+
+
+Atribuição
+
+Igual
+
+=			
+x = y
+x está atribuindo o valor de y
+
+Soma
++=
+x = x + y
+x está atribuindo o valor de y mais x
+
+Multiplicação
+*=
+x = x * y
+x está atribuindo o valor de y vezes x
+
+Divisão
+/=
+x = x / y
+x está atribuindo o valor de y dividido por x
+
+
+Módulo
+%=
+x = x % y
+x está atribuindo o valor de y resto
+
+
+Aritimética
+
++	adição
+-	subtração
+*	multiplicação
+**	potenciação ou exponenciação
+/	dicisão real
+%	divisão inteira ou resto da divisão ou módulo
+++	incrementar
+--	decrementar
+
+
+Comparação
+
+==	igual a
+===	mesmo valor e mesmo tipo
+!=	diferente
+!==	valor e tipos diferentes
+>	maior que
+<	menor que
+>=	maior ou igual
+<=	menor ou igual 
+
+
+Lógica
+
+&&	"e" lógico - duas afirmações verdadeiras
+||	"ou" lógico - pelo menos uma for verdadeira
+!	"não" lógico - oposto do dado que passamos depois do não
+
+Condicional (ternário)
+
+(condition) ? expression1 : expression2
+
+if (condition)
+statement
+
+else
+statement

@@ -1,0 +1,44 @@
+.l-main {
+    grid-area: main;
+    padding: 2rem 3rem;
+}
+
+@media (min-width: 768px) {
+    .l-main {
+        overflow: scroll;
+    }
+}
+
+.l-main__about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.l-main__about-item-text {
+    width: 50%;
+}
+
+.l-main__contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.l-main__contact__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.l-main__projects-item-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

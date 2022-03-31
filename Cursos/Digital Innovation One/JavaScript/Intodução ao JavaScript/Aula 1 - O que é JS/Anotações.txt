@@ -1,0 +1,35 @@
+Dois tipos de linguagem de programação:
+
+- interpretada
+- compilada
+
+Js é uma linguagem interpretada, ou seja, é atualziada em tempo real, não precisa de compilador para ver o output(resultado final)
+
+Js é baseada em protótipos (estudar orientação a objetos), protótipo é uma base para grande maioria da estrutura de dados e se baseia em ser um conjunto de funções e possibilidades em comum entre as mesmas.
+
+Js é multiparadigma, ou seja, podemos escolher trabalhar com orientação a objetos, programação funcional ou programação estruturada.
+
+Js comumente utilizada em aplicações web client-side, ou seja, voltada para interação para usuários na internet.
+
+Js segue o padrão ECMAScript, é um conjunto de normas quais funcionalidades serão implementadas na linguagem quem segue essa convenção.
+
+Js foi criado em 1995, mas com burocracias em guerras, foi somente em 1997 que foi lançado o ECMAScript1;
+
+de 1997 a 1998, não tiveram muitas atualizações, foi lançado o ECMAScript2;
+
+1999, conseguimos fazer expressões regulares (exemplo manda emails) e try/catch (maneira de tratar erros), foi lançado o ECMAScript3;
+
+Não teve lançamento do ECMAScript4;
+
+2009, "strict mode", suporte JSON (importante para consumir API's e etc, grande aliado) e estrutura de dados (string.trim(),array.is.array(), array iteration methods), foi lançado o ECMAScript5;
+
+2015, trouxe MUITA atualização, foi lançado o ECMAScript6;
+
+Apliacações:
+
+- Mobile;
+- Mobile;
+- SmartWatch;
+- Games;
+- Internet das coisas (Alexa, criar rotina para ela com a criação de API com NodeJs);
+- API's;

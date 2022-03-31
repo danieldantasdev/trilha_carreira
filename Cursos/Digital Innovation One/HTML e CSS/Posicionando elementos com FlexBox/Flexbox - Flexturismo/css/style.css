@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Open Sans',sans-serif;
+  list-style:none;
+  text-decoration:none;
+}
+
+.container{
+  margin:0 2rem;
+}
+
+.l-header{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  background:darkblue;
+  padding:2rem;
+}
+
+.l-header h1{
+  color:white;
+}
+
+.l-header__menu {
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.l-header__menu li + li{
+  margin-left:2rem;
+}
+
+.l-header__menu li a{
+    color:white;
+}
+
+.l-section{
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin:2rem;
+}
+
+.l-section h1{
+  font-size:2.5rem;
+  margin-bottom:1rem;
+  color:darkblue;
+}
+
+.l-section p{
+  margin-bottom:1rem;
+}
+
+.l-section button{
+  border:none;
+  padding:1rem 2rem;
+  background:darkblue;
+  color:white;
+  border-radius:2rem;
+  margin-top: 1rem;
+}
+
+.l-section__item-text-p {
+
+  flex-wrap: wrap;
+}
+
+.l-section__item-text-p h1{
+margin-left:1rem;
+}
+
+.l-section__item-text-p h1::before{
+  content:"";
+  width:5px;
+  height:35px;
+  margin-left:-15px;
+  background:blue;
+  position:absolute;
+}
+
+.l-section-imagens{
+  width: 50%;
+  margin: 0 auto;
+
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+
+.l-section-imagens p{
+  margin-top:1rem;
+}
+
+.l-article{
+  background: darkblue;
+  margin: 0 -2rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.l-article h1{
+  font-size: 2.5rem;
+  color: white;
+}
+
+.l-article p{
+  margin:1rem 0;
+  color: white;
+
+}
+
+.l-article button{
+  border:none;
+  padding:1rem 2rem;
+  background:rgb(247, 247, 248);
+  color:darkblue;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius:2rem;
+}
+
+.l-section-planos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.l-section-planos__item{
+  border: 5px solid darkblue;
+  margin: 2rem;
+  padding: 3rem;
+  
+}
+
+.l-section-planos__item h2{
+  margin-bottom: 2rem;
+}
+
+.l-section-planos__item h2::before{
+  content:"";
+  width:100px;
+  height:5px;
+  margin-top: 35px;
+  background:blue;
+  position:absolute;
+}
+
+footer{
+  background: #cecece;
+  margin: 0 -2rem;
+  text-align: center;
+  padding: 2rem;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flexbox - Posicionamento de elementos</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- CONTAINER  - atrvés dele vamos construir toda árvore de estilos-->
+        <div class="l-container">
+            <!-- HEADER -->
+            <header class="l-header">
+                <!-- IMAGEM -->
+                <img
+                    class="c-image__logo"
+                    src="public/img/logo.png"
+                    alt="Logo"
+                    title="Logo"
+                />
+                <!-- NAVIGATION -->
+                <nav class="l-nav">
+                    <ul class="l-nav__menu">
+                        <li>
+                            <a class="l-nav__menu__item-link" href="#"
+                                >Quem sou eu</a
+                            >
+                        </li>
+                        <li>
+                            <a class="l-nav__menu__item-link" href="#"
+                                >Projetos</a
+                            >
+                        </li>
+                        <li>
+                            <a class="l-nav__menu__item-link" href="#"
+                                >Contato</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- ASIDE -->
+            <aside class="l-aside">
+                <div class="l-aside__item-img-text">
+                    <img
+                        class="c-image__profile-photo"
+                        src="public/img/aside-photo.png"
+                        alt="Foto de perfil"
+                    />
+                    <div class="l-aside__item-text">
+                        <h1 class="c-person-name">Daniel Dantas</h1>
+                        <p class="c-person-details">Front End Developer</p>
+                        <p class="c-person-details">
+                            Contatolobinhodev@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <ul class="l-aside__item-social-links">
+                    <li>
+                        <a href="#"
+                            ><img
+                                class="l-aside__item-social-links__link"
+                                src="public/img/icons/github-logo.svg"
+                                alt=""
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><img
+                                class="l-aside__item-social-links__link"
+                                src="public/img/icons/medium-logo.svg"
+                                alt=""
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><img
+                                class="l-aside__item-social-links__link"
+                                src="public/img/icons/twitter-logo.svg"
+                                alt=""
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <!-- MAIN -->
+            <main class="l-main">
+                <section class="l-main__about">
+                    <img
+                        class="c-image__profile-photo"
+                        src="public/img/profile-photo.png"
+                        alt="Imagem de perfil"
+                    />
+                    <div class="l-main__about-item-text">
+                        <h2 class="c-main__title">Quem sou eu?</h2>
+                        <p class="c-main__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Fugiat, veniam dignissimos doloremque
+                            similique corporis, beatae repellendus, dolores et
+                            aperiam quae praesentium atque error. Sed nostrum
+                            accusamus odit id dicta rerum.Fugiat, veniam
+                            dignissimos doloremque similique corporis, beatae
+                            repellendus, dolores et aperiam quae praesentium
+                            atque error. Sed nostrum accusamus odit id dicta
+                            rerum.
+                        </p>
+                    </div>
+                </section>
+                <section class="l-main__projects">
+                    <h2 class="c-main__title">Projetos</h2>
+
+                    <div class="l-main__projects-item-images">
+                        <img
+                            class="l-main__project__image"
+                            src="public/img/img1.png"
+                            alt=""
+                        />
+                        <img
+                            class="l-main__project__image"
+                            src="public/img/img2.png"
+                            alt=""
+                        />
+                        <img
+                            class="l-main__project__image"
+                            src="public/img/img3.png"
+                            alt=""
+                        />
+                        <img
+                            class="l-main__project__image"
+                            src="public/img/img4.png"
+                            alt=""
+                        />
+                        <img
+                            class="l-main__project__image"
+                            src="public/img/img5.png"
+                            alt=""
+                        />
+                    </div>
+                </section>
+                <section class="l-main__contact">
+                    <h2 class="c-main__title">Contato</h2>
+                    <p class="c-main__description">
+                        Gostou? Entre em contato para tirar suas dúvidas
+                    </p>
+
+                    <form action="" class="l-main__contact__form">
+                        <!-- LABEL - importante para leitores de tela -->
+                        <label class="c-main__label" for="name"
+                            >Nome completo:
+                        </label>
+                        <input
+                            class="c-main__input"
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Nome completo"
+                        />
+                        <label class="c-main__label" for="email">Email: </label>
+                        <input
+                            class="c-main__input"
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email"
+                        />
+                        <label class="c-main__label" for="subject"
+                            >Assunto:
+                        </label>
+                        <input
+                            class="c-main__input"
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            placeholder="Assunto"
+                        />
+                        <label class="c-main__label" for="message"
+                            >Mensagem:
+                        </label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Mensagem"
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                        <button class="c-main__button" type="submit">
+                            Enviar mensagem
+                        </button>
+                    </form>
+                </section>
+            </main>
+            <footer class="l-footer">
+                <h3 class="c-footer__subtitle">Daniel Dantas, 2021</h3>
+            </footer>
+        </div>
+    </body>
+</html>
+<!-- ATOMIC DESIGN, BEM, SMACS -->

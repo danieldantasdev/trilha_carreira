@@ -1,0 +1,21 @@
+Primeiro passo
+1 - git config --global user.email ""
+2 - git config --global user.name ""
+
+Reescrever
+1 - git config --global --unset.user.email
+2 - git config --global --unset.user.name
+
+Comandos
+git init
+git add
+git commit
+git add *
+git commit -m "commit inicial"
+(-m é uma flag)
+git status
+git config --list
+ls -a = mostra arquivos ocultos
+git remote origin link do repositório
+git push origin master
+git pull origin master

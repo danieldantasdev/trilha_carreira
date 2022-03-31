@@ -1,0 +1,5 @@
+Aprendendo a criptografia com sha1
+
+
+SINTAXE
+openssl sha1 criptografia.txt

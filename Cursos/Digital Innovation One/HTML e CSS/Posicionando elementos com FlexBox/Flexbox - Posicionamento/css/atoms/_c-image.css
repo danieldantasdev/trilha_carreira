@@ -1,0 +1,10 @@
+.c-image__logo,
+.c-image__profile-photo {
+    border-radius: 50%; /* deixando borda redonda */
+}
+
+@media (min-width: 768px) {
+    .c-image__profile-photo {
+        margin: 0 auto;
+    }
+}

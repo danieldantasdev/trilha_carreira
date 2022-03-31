@@ -1,0 +1,58 @@
+.l-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background: var(--dark-blue);
+
+    padding: 0.5rem 2rem;
+
+    grid-area: header;
+}
+
+@media (max-width: 768px) {
+    .l-header {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        /* padding: 1rem; */
+    }
+
+    .l-header > img {
+        padding: 1rem;
+    }
+
+    .l-nav {
+        margin: 1rem;
+        padding: 1rem 0;
+        width: 100%; /* acertando o bug do letter spacing */
+    }
+}
+
+.l-nav__menu {
+    display: flex;
+    /*possibilidade- justify-content: space-between;
+    align-items: center;
+    width: 300px; */
+
+    font-family: montserrat-light;
+    font-size: 1.1em;
+}
+
+.l-nav__menu li + li {
+    margin-left: 2rem;
+}
+
+.l-nav__menu a {
+    color: var(--white);
+    transition: all 0.2s linear;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.l-nav__menu a:hover {
+    letter-spacing: 0.1rem;
+    border: solid 3px var(--green);
+}

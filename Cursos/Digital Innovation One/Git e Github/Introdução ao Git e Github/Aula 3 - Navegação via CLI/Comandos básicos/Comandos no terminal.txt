@@ -1,0 +1,11 @@
+WINDOWS
+
+dir - lista o diretório
+cd - entra no diretório
+../ ou .. - volta um diretório
+mkdir - cria pasta
+cls ou CRTL + L - limpa o terminal
+TAB - autocomplete
+echo - devolve no terminal e se não tive cria o arquivo(echo hello > hello.txt)
+del - deleta apenas arquivos
+rmdir (nome) /S /Q- remover diretório

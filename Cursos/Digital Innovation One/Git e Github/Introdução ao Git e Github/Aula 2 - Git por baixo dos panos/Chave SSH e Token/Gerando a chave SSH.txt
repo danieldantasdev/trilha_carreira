@@ -1,0 +1,25 @@
+Gerando a chave SSH
+
+1 - ssh-keygen -t ed25519 -c contatolobinhodev@gmail.com
+
+Acessando a chave SSH pelo terminal
+
+1 - cd/c/Users/ASUS/.ssh/
+2 - ls
+
+CHAVES (id_rsa  id_rsa.pub)
+Chave da minha máquina 
+
+(ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQzJPG6hobr0W25rWEU+D/L0YBAtiBcLVUNQxP4wyjlPWbjpl0TyfGk0yzKnbKL6bjt/exOWerZx4U+1uMZ6c5WWqC7LqjTyaxkTmh9EiIdvFPg+IHp40hvlFPk0OoP9xzex2XRp5C2ykpWP38HHL+CnGSfDfpURZ1iefIz50n1nP9RVgglREd4fePMJTh06XpWkl/5dHhVODj3vYIzRcsbWXwHeRieV7+RPC9t7EtXLoUqrcpuA2ZEo/JmbTlN3NZQB3Z+R7NzAhDOdoi7CnfPucunTK4Rpe0XcO3mg9Ss3YdfV0oC9BbnmZ9JznWUaCmAq3NnWWsxqrfzZBH2nDIlCb0GYzR/3bH2dGu+HrExclWq9NA5NGFbzmtHt8XOjRzCd+zJOc5MrIxuTagTW+x04tAwsNSqmFmzksidcQthio9JsAaI0kKScV8FasYNlKfCnddtgEZbwDO5nrEFV8HehtZkmBIAhVnK5mZflzer1+WhWDE1dRQ6wk+yq0/lK0= daniel@LOBINHO)
+
+Para a chave funcionar
+1 - abrir  terminal
+2 - eval $(ssh-agent -s)
+
+(Agent pid 1608)
+(comando pwd - lista o caminho completo no bash)
+(comando ls - lista os diretórios no bash)
+
+
+Validar a chave
+1 - ssh-add id_rsa
